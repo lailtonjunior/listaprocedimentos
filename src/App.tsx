@@ -21,6 +21,33 @@ interface Procedure {
   equipeAssistência: string[];
 }
 
+const SCENARIOS: Record<string, string> = {
+  '1': 'Avaliação, Exames e Testes',
+  '2': 'Reavaliação, Exames e Testes',
+  '3': 'Acompanhamento',
+  '4': 'Diagnóstico',
+  '5': 'Orientação',
+  '6': 'Telemonitoramento',
+  '7': 'Alta',
+  '8': 'OPMALs'
+};
+
+const getCenariosList = (cenario: string) => {
+  if (!cenario) return [];
+  return cenario
+    .split('/')
+    .filter(Boolean)
+    .map(c => c.trim())
+    .sort((a, b) => parseInt(a) - parseInt(b))
+    .map(id => ({ id, label: SCENARIOS[id] || id }));
+};
+
+const formatCenarioText = (cenario: string) => {
+  const list = getCenariosList(cenario);
+  if (list.length === 0) return 'Não especificado';
+  return list.map(c => `${c.id} - ${c.label}`).join(', ');
+};
+
 export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedModalidade, setSelectedModalidade] = useState<string>('Todas');
@@ -90,7 +117,7 @@ Estou analisando o seguinte procedimento:
 - Nome: ${selectedProcedure.nome}
 - Código: ${selectedProcedure.codigo}
 - Modalidade: ${selectedProcedure.modalidade}
-- Cenário: ${selectedProcedure.cenario}
+- Cenário: ${formatCenarioText(selectedProcedure.cenario)}
 - Motivo: ${selectedProcedure.motivo}
 - Equipe Médica: ${selectedProcedure.equipeMedica.join(', ') || 'Nenhuma'}
 - Equipe de Assistência: ${selectedProcedure.equipeAssistência.join(', ') || 'Nenhuma'}
@@ -346,7 +373,20 @@ Por favor, forneça uma resposta útil, profissional e direta baseada nas regras
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
                         <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Cenário</span>
-                        <span className="text-base font-medium text-slate-800 leading-relaxed">{selectedProcedure.cenario || 'Não especificado'}</span>
+                        {selectedProcedure.cenario ? (
+                          <ul className="space-y-2 mt-1">
+                            {getCenariosList(selectedProcedure.cenario).map(c => (
+                              <li key={c.id} className="text-sm font-medium text-slate-700 flex items-start gap-2.5">
+                                <span className="flex items-center justify-center w-5 h-5 rounded bg-indigo-100 text-indigo-700 font-bold text-xs shrink-0">
+                                  {c.id}
+                                </span>
+                                <span className="leading-snug">{c.label}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        ) : (
+                          <span className="text-base font-medium text-slate-800 leading-relaxed">Não especificado</span>
+                        )}
                       </div>
                       <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm">
                         <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Motivo</span>

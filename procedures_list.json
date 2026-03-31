@@ -1,0 +1,417 @@
+[
+  {
+    "codigo": "03.01.07.005-9",
+    "nome": "ATENDIMENTO/ACOMPANHAMENTO INTENSIVO DE PACIENTE EM REABILITAÇÃO FÍSICA (1 TURNO PACIENTE-DIA - 15 ATENDIMENTOS-MÊS)",
+    "motivo": "Sem indicação de OPMAL"
+  },
+  {
+    "codigo": "03.01.07.010-5",
+    "nome": "TRATAMENTO INTENSIVO DE PACIENTE EM REABILITAÇÃO FÍSICA (1 TURNO PACIENTE-DIA - 20 ATENDIMENTOS-MÊS)",
+    "motivo": "Com indicação de OPMAL"
+  },
+  {
+    "codigo": "03.01.07.022-9",
+    "nome": "TELEATENDIMENTO/TELEMONITORAMENTO EM REABILITAÇÃO FÍSICA",
+    "motivo": "Orientações"
+  },
+  {
+    "codigo": "03.01.10.006-3",
+    "nome": "CUIDADOS COM ESTOMAS",
+    "motivo": "Estomas"
+  },
+  {
+    "codigo": "03.01.07.021-0",
+    "nome": "REABILITAÇÃO DE PACIENTES PÓS COVID-19",
+    "motivo": "Covid"
+  },
+  {
+    "codigo": "03.01.07.020-2",
+    "nome": "REABILITAÇÃO CARDIORRESPIRATÓRIA DE PACIENTES PÓS COVID-19",
+    "motivo": "Covid"
+  },
+  {
+    "codigo": "03.02.05.005-9",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTES NO PRÉ E PÓS-OPERATÓRIO NAS DISFUNÇÕES MÚSCULO ESQUELÉTICAS",
+    "motivo": "Pós Operatório"
+  },
+  {
+    "codigo": "03.02.05.002-4",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO NAS ALTERAÇÕES MOTORAS",
+    "motivo": "Reabilitação Física em Geral"
+  },
+  {
+    "codigo": "03.02.06.001-1",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTES COM DISTÚRBIOS NEURO-CINÉTICO-FUNCIONAIS SEM COMPLICAÇÕES SISTÊMICAS",
+    "motivo": "Atendimento para paciente neurofuncional"
+  },
+  {
+    "codigo": "03.02.06.003-8",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO NAS DESORDENS DO DESENVOLVIMENTO NEURO MOTOR",
+    "motivo": "Reabilitação Infantil em paciente participativo"
+  },
+  {
+    "codigo": "03.02.06.005-4",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE NO PRÉ/PÓS-OPERATÓRIO DE NEUROCIRURGIA",
+    "motivo": "Reabilitação em paciente pós cirúrgico neurológico"
+  },
+  {
+    "codigo": "03.02.06.004-6",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE C/ COMPROMETIMENTO COGNITIVO",
+    "motivo": "Reabilitação em paciente não participativo"
+  },
+  {
+    "codigo": "03.09.05.003-0",
+    "nome": "SESSÃO DE ELETROESTIMULAÇÃO",
+    "motivo": "Analgesia/Estimulação muscular"
+  },
+  {
+    "codigo": "02.11.03.002-8",
+    "nome": "AVALIAÇÃO CINÉTICA, CINEMÁTICA E DE PARÂMETROS LINEARES",
+    "motivo": "Avaliação de marcha - idade a partir de 04 anos"
+  },
+  {
+    "codigo": "02.11.03.003-6",
+    "nome": "AVALIAÇÃO DE EQUILÍBRIO ESTÁTICO EM PLACA DE FORÇA",
+    "motivo": "Avaliação de equilíbrio estático - idade a partir de 04 anos"
+  },
+  {
+    "codigo": "03.01.07.002-4",
+    "nome": "ACOMPANHAMENTO DE PACIENTE EM REABILITAÇÃO EM COMUNICAÇÃO ALTERNATIVA",
+    "motivo": "Dificuldade comunicação"
+  },
+  {
+    "codigo": "03.01.07.004-0",
+    "nome": "ACOMPANHAMENTO NEUROPSICOLÓGICO DE PACIENTE EM REABILITAÇÃO",
+    "motivo": "Estimulação cognitiva"
+  },
+  {
+    "codigo": "03.01.07.005-9",
+    "nome": "ACOMPANHAMENTO PSICOPEDAGÓGICO DE PACIENTE EM REABILITAÇÃO",
+    "motivo": "Ensino Pedagógico"
+  },
+  {
+    "codigo": "03.01.07.006-7",
+    "nome": "ATENDIMENTO / ACOMPANHAMENTO DE PACIENTE EM REABILITAÇÃO DO DESENVOLVIMENTO NEUROPSICOMOTOR",
+    "motivo": "Avaliação e acompanhamento"
+  },
+  {
+    "codigo": "03.01.07.026-1",
+    "nome": "TELEATENDIMENTO/TELEMONITORAMENTO EM REABILITAÇÃO INTELECTUAL",
+    "motivo": "Orientações"
+  },
+  {
+    "codigo": "02.11.09.003-3",
+    "nome": "APLICAÇÃO DE TESTE P/ PSICODIAGNÓSTICO",
+    "motivo": "Realização de testes"
+  },
+  {
+    "codigo": "02.11.06.003-4",
+    "nome": "CAMPIMETRIA COMPUTADORIZADA OU MANUAL COM GRÁFICO",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.002-6",
+    "nome": "BIOMICROSCOPIA DE FUNDO DE OLHO",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.005-0",
+    "nome": "CERATOMETRIA",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.010-7",
+    "nome": "FUNDOSCOPIA",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.012-3",
+    "nome": "MAPEAMENTO DE RETINA",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.022-0",
+    "nome": "TESTE DE VISÃO DE CORES",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.025-5",
+    "nome": "TONOMETRIA",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.023-9",
+    "nome": "TESTE ORTÓPTICO",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.06.015-8",
+    "nome": "POTENCIAL DE ACUIDADE VISUAL",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "03.01.07.014-8",
+    "nome": "TREINO DE ORIENTAÇÃO E MOBILIDADE",
+    "motivo": "Acompanhamento"
+  },
+  {
+    "codigo": "03.01.07.015-6",
+    "nome": "AVALIAÇÃO MULTIPROFISSIONAL EM DEFICIÊNCIA VISUAL",
+    "motivo": "Avaliação Multi Pacientes Regulados"
+  },
+  {
+    "codigo": "03.01.07.004-0",
+    "nome": "ATENDIMENTO/ACOMPANHAMENTO EM REABILITAÇÃO VISUAL",
+    "motivo": "Acompanhamento"
+  },
+  {
+    "codigo": "03.01.07.024-5",
+    "nome": "TELEATENDIMENTO/TELEMONITORAMENTO EM REABILITAÇÃO VISUAL",
+    "motivo": "Orientações"
+  },
+  {
+    "codigo": "03.02.06.003-8",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTES COM ALTERAÇÕES OCULOMOTORAS CENTRAIS C/ COMPROMETIMENTO SISTÊMICO",
+    "motivo": "Estimulação"
+  },
+  {
+    "codigo": "03.02.06.002-0",
+    "nome": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTES COM ALTERAÇÕES OCULOMOTORAS PERIFÉRICAS",
+    "motivo": "Fisioterapia Oculomotora Periférica"
+  },
+  {
+    "codigo": "02.11.05.011-0",
+    "nome": "POTENCIAL EVOCADO AUDITIVO",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.002-5",
+    "nome": "AUDIOMETRIA DE REFORÇO VISUAL (VIA AÉREA / ÓSSEA)",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.003-3",
+    "nome": "AUDIOMETRIA EM CAMPO LIVRE",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.004-1",
+    "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AÉREA / ÓSSEA)",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.005-0",
+    "nome": "AVALIAÇÃO AUDITIVA COMPORTAMENTAL",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.010-6",
+    "nome": "AVALIAÇÃO P/ DIAGNÓSTICO DIFERENCIAL DE DEFICIÊNCIA AUDITIVA",
+    "motivo": "Avaliação/Consulta Médica"
+  },
+  {
+    "codigo": "02.11.07.014-9",
+    "nome": "EMISSÕES OTOACÚSTICAS EVOCADAS PARA TRIAGEM AUDITIVA (TESTE DA ORELHINHA)",
+    "motivo": "Triagem/Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.015-7",
+    "nome": "ESTUDO DE EMISSÕES OTOACÚSTICAS EVOCADAS TRANSITÓRIAS E PRODUTOS DE DISTORÇÃO (EOA)",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.020-3",
+    "nome": "IMITANCIOMETRIA",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.021-1",
+    "nome": "LOGOAUDIOMETRIA (LDV-IRF-LRF)",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.024-6",
+    "nome": "PESQUISA DE GANHO DE INSERÇÃO",
+    "motivo": "Acompanhamento de OPMAL"
+  },
+  {
+    "codigo": "02.11.07.026-2",
+    "nome": "POTENCIAL EVOCADO AUDITIVO DE CURTA MÉDIA E LONGA LATÊNCIA",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.027-0",
+    "nome": "POTENCIAL EVOCADO AUDITIVO PARA TRIAGEM AUDITIVA (TESTE DA ORELHINHA)",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.030-0",
+    "nome": "REAVALIAÇÃO DIAGNÓSTICA DE DEFICIÊNCIA AUDITIVA EM PACIENTE MENOR DE 3 ANOS",
+    "motivo": "Retorno de pacientes"
+  },
+  {
+    "codigo": "02.11.07.031-9",
+    "nome": "SELEÇÃO E VERIFICAÇÃO DE BENEFÍCIO DO AASI",
+    "motivo": "Preparação OPMAL"
+  },
+  {
+    "codigo": "02.11.07.032-7",
+    "nome": "TESTES ACUMÉTRICOS (DIAPASÃO)",
+    "motivo": "Teste durante consulta"
+  },
+  {
+    "codigo": "02.11.07.033-5",
+    "nome": "TESTES AUDITIVOS SUPRALIMINARES",
+    "motivo": "Diagnóstico"
+  },
+  {
+    "codigo": "02.11.07.034-3",
+    "nome": "TESTES DE PROCESSAMENTO AUDITIVO",
+    "motivo": "Diagnóstico / Carol"
+  },
+  {
+    "codigo": "02.11.07.035-1",
+    "nome": "TESTES VESTIBULARES / OTONEUROLÓGICOS",
+    "motivo": "Diagnóstico / Carol"
+  },
+  {
+    "codigo": "02.11.07.014-9",
+    "nome": "EMISSÕES OTOACÚSTICAS EVOCADAS PARA TRIAGEM AUDITIVA (TESTE DA ORELHINHA/RETESTE)",
+    "motivo": "Reteste Triagem Neonatal"
+  },
+  {
+    "codigo": "02.11.07.027-0",
+    "nome": "POTENCIAL EVOCADO AUDITIVO P/ TRIAGEM AUDITIVA (TESTE DA ORELHINHA/RETESTE)",
+    "motivo": "Reteste PEATE-BERA"
+  },
+  {
+    "codigo": "03.01.07.003-2",
+    "nome": "ACOMPANHAMENTO DE PACIENTE P/ ADAPTAÇÃO DE APARELHO DE AMPLIFICAÇÃO SONORA INDIVIDUAL (AASI) UNI / BILATERAL",
+    "motivo": "Acompanhamento de paciente protetizado"
+  },
+  {
+    "codigo": "03.01.07.025-3",
+    "nome": "TELEATENDIMENTO/TELEMONITORAMENTO EM REABILITAÇÃO AUDITIV",
+    "motivo": "Orientações"
+  },
+  {
+    "codigo": "01.01.01.002-8",
+    "nome": "ATIVIDADE EDUCATIVA / ORIENTAÇÃO EM GRUPO NA ATENÇÃO ESPECIALIZADA",
+    "motivo": "Grupos Psicologia Estagiários"
+  },
+  {
+    "codigo": "01.01.04.002-4",
+    "nome": "AVALIAÇÃO ANTROPOMÉTRICA",
+    "motivo": "Avaliação/Diagnóstico"
+  },
+  {
+    "codigo": "03.01.07.009-1",
+    "nome": "ATENDIMENTO EM OFICINA TERAPÊUTICA II EM GRUPO PARA PESSOAS COM DEFICIÊNCIA (POR OFICINA TERAPÊUTICA)",
+    "motivo": "Oficinas"
+  },
+  {
+    "codigo": "02.11.07.006-8",
+    "nome": "AVALIAÇÃO DE LINGUAGEM ESCRITA / LEITURA",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "02.11.07.007-6",
+    "nome": "AVALIAÇÃO DE LINGUAGEM ORAL",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "02.11.07.008-4",
+    "nome": "AVALIAÇÃO MIOFUNCIONAL DE SISTEMA ESTOMATOGNÁTICO",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "02.11.07.011-4",
+    "nome": "AVALIAÇÃO VOCAL",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "02.11.07.017-3",
+    "nome": "EXAME DE ORGANIZAÇÃO PERCEPTIVA",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "02.11.07.018-1",
+    "nome": "EXAME NEUROPSICOMOTOR EVOLUTIVO",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "02.11.07.019-0",
+    "nome": "GUSTOMETRIA",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "02.11.07.022-0",
+    "nome": "OLFATOMETRIA",
+    "motivo": "Avaliação"
+  },
+  {
+    "codigo": "03.01.01.004-3",
+    "nome": "CONSULTA DE PROFISSIONAIS DE NÍVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO)",
+    "motivo": "Atendimento - Orientação somente para ED. FÍSICO e NUTRI"
+  },
+  {
+    "codigo": "03.01.01.007-8",
+    "nome": "CONSULTA MÉDICA EM ATENÇÃO ESPECIALIZADA",
+    "motivo": "Consulta médica Psiquiatria"
+  },
+  {
+    "codigo": "03.01.01.030-2",
+    "nome": "TELECONSULTA MÉDICA NA ATENÇÃO ESPECIALIZADA",
+    "motivo": "Teleconsulta médica"
+  },
+  {
+    "codigo": "03.01.04.003-6",
+    "nome": "TERAPIA EM GRUPO",
+    "motivo": "Eventos/Estratégia de metas"
+  },
+  {
+    "codigo": "03.01.04.004-4",
+    "nome": "TERAPIA INDIVIDUAL",
+    "motivo": "Atendimento"
+  },
+  {
+    "codigo": "03.01.07.008-3",
+    "nome": "ATENDIMENTO EM OFICINA TERAPÊUTICA I EM GRUPO PARA PESSOAS COM DEFICIÊNCIA (POR OFICINA TERAPÊUTICA I)",
+    "motivo": "Oficinas"
+  },
+  {
+    "codigo": "03.01.07.011-3",
+    "nome": "TERAPIA FONOAUDIOLÓGICA INDIVIDUAL",
+    "motivo": "Atendimento"
+  },
+  {
+    "codigo": "03.01.07.007-5",
+    "nome": "MATRICIAMENTO DE EQUIPES DOS OUTROS PONTOS E NÍVEIS DA REDE DE ATENÇÃO À SAÚDE PARA ATENÇÃO À SAÚDE DAS PESSOAS COM DEFICIÊNCIA",
+    "motivo": "Encaminhamentos e orientações com relatório"
+  },
+  {
+    "codigo": "03.01.07.028-8",
+    "nome": "ALTA POR OBJETIVOS TERAPÊUTICOS ALCANÇADOS DA REABILITAÇÃO NA ATENÇÃO ESPECIALIZADA",
+    "motivo": "Alta"
+  },
+  {
+    "codigo": "03.01.08.016-0",
+    "nome": "ATENDIMENTO EM PSICOTERAPIA DE GRUPO",
+    "motivo": "Grupo Psicologia - Renata (a partir de 6 anos)"
+  },
+  {
+    "codigo": "03.01.07.029-6",
+    "nome": "ESTIMULAÇÃO PRECOCE RELACIONADA AO NEURODESENVOLVIMENTO NA ATENÇÃO ESPECIALIZADA",
+    "motivo": "Orientações"
+  },
+  {
+    "codigo": "03.01.07.030-0",
+    "nome": "ATENDIMENTO DE FAMILIARES, CUIDADORES E/OU ACOMPANHANTES DE PESSOAS COM DEFICIÊNCIA NOS SERVIÇOS DE REABILITAÇÃO DA ATENÇÃO ESPECIALIZADA",
+    "motivo": "Orientações apenas para os responsáveis"
+  },
+  {
+    "codigo": "03.01.07.001-6",
+    "nome": "ATENDIMENTO / ACOMPANHAMENTO EM REABILITAÇÃO NAS MÚLTIPLAS DEFICIÊNCIAS",
+    "motivo": "Atendimento/Estratégia de metas"
+  }
+]
