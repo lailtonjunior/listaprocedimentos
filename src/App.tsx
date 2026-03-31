@@ -154,7 +154,7 @@ Por favor, forneça uma resposta útil, profissional e direta baseada nas regras
                 <HeartPulse className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold tracking-tight text-slate-900">Guia SIGTAP</h1>
+                <h1 className="text-xl font-bold tracking-tight text-slate-900">GUIA SIGTAP - PROCEDIMENTOS</h1>
                 <p className="text-xs text-slate-500 font-medium tracking-wide uppercase mt-0.5">Sistema de Gerenciamento</p>
               </div>
             </div>
