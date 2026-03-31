@@ -1,0 +1,5 @@
+{
+  "name": "Guia de Procedimentos SIGTAP",
+  "description": "Aplicativo para consultar os procedimentos permitidos de acordo com os profissionais e modalidades.",
+  "requestFramePermissions": []
+}
